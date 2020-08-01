@@ -3,5 +3,5 @@ This is the custom terminal scheme that I use on Ubuntu systems. Sharing this on
 
 ## Installation
 ```sh
-gconftool-2 --load gnome-terminal-conf.xml
+dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 ```
